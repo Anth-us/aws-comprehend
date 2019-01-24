@@ -1,0 +1,30 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.8.0)
+    aws-eventstream (1.0.1)
+    aws-partitions (1.134.0)
+    aws-sdk-comprehend (1.12.0)
+      aws-sdk-core (~> 3, >= 3.39.0)
+      aws-sigv4 (~> 1.0)
+    aws-sdk-core (3.46.0)
+      aws-eventstream (~> 1.0)
+      aws-partitions (~> 1.0)
+      aws-sigv4 (~> 1.0)
+      jmespath (~> 1.0)
+    aws-sigv4 (1.0.3)
+    commander (4.4.7)
+      highline (~> 2.0.0)
+    highline (2.0.1)
+    jmespath (1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print (~> 1.8)
+  aws-sdk-comprehend (~> 1.12)
+  commander (~> 4.4, >= 4.4.7)
+
+BUNDLED WITH
+   1.16.1
